@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:60px;
+
+}
+.id-icon{
+    display:flex;
+}
+.a{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.b{
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.search{
+    display:flex;
+    justify-content: space-evenly;
+    width:500px;
+    height:40px;
+    border-radius: 5px;
+    background-color:rgba(206, 136, 45, 0.922);
+}
+.search-icon{
+
+width:45px;
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+color: black;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    margin-left: 15px;
+    font-weight: 700;
+}
+.panel-ops{
+    width:70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-sec {
+   
+        background-image: url("hero_image.jpg");
+        height:350px;
+        background-size:cover ;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+}
+
+.box{
+    
+    height:400px;
+    width:23%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px;
+}
+.box_img{
+    height:300px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.shop{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-cont{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.box-cont p{
+    color:#007185;
+}
+.foot{
+    background-color: #222f3d;
+    height:300px;
+    color:white;
+    display:flex;
+    justify-content:  space-evenly;
+    
+}
+ul{
+    margin-top: 20px;;
+}
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
