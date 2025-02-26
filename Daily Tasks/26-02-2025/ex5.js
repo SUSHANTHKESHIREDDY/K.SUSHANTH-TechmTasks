@@ -1,0 +1,14 @@
+var inferredString = "This is a string";
+var inferredNumber = 42;
+var inferredBoolean = true;
+var inferredArray = [1, 2, 3];
+var inferredObject = { name: "Alice", age: 30 };
+var inferredNull = null;
+var inferredUndefined = undefined;
+console.log("inferredString type:", typeof inferredString);
+console.log("inferredNumber type:", typeof inferredNumber);
+console.log("inferredBoolean type:", typeof inferredBoolean);
+console.log("inferredArray type:", typeof inferredArray);
+console.log("inferredObject type:", typeof inferredObject);
+console.log("inferredNull type:", typeof inferredNull);
+console.log("inferredUndefined type:", typeof inferredUndefined);
